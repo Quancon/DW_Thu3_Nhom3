@@ -1,0 +1,38 @@
+{
+  "database": {
+    "driver": "ODBC Driver 17 for SQL Server",
+    "server": "LAPTOP-RTU924M1",
+    "trustedConnection": "true"
+  },
+  "email": {
+    "from_email": "",
+    "password": "",
+    "to_email": ""
+  },
+  "data_quality": {
+    "min_price": 0,
+    "max_price": 100000,
+    "required_fields": [
+      "GoldType",
+      "BuyPrice",
+      "SellPrice",
+      "UpdateTime"
+    ]
+  },
+  "etl": {
+    "batch_size": 1000,
+    "retry_attempts": 3,
+    "timeout_seconds": 300,
+    "scheduler": {
+      "web_crawling_interval": 3600,
+      "file_processing_interval": 7200,
+      "warehouse_update_interval": 14400,
+      "backup_time": "23:00"
+    }
+  },
+  "paths": {
+    "data_dir": "data",
+    "logs_dir": "logs",
+    "backup_dir": "backup"
+  }
+}

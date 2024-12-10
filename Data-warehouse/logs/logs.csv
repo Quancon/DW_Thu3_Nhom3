@@ -1,0 +1,64 @@
+,LoadGoldPricesSuccess,Load Data,compare_and_load_gold_prices,2024-12-02 17:27:57,INFO,d:\VSC\Data-warehouse\code\LoadAggregate.py
+,LoadWarehouseSuccess,Load Data,load_new_data_to_warehouse,2024-12-02 17:27:58,INFO,d:\VSC\Data-warehouse\code\LoadAggregate.py
+,UpdateSuccess,Run Code,Main,2024-12-02 17:27:59,INFO,d:\VSC\Data-warehouse\code\LoadAggregate.py
+,UpdateSuccess,Run Code,Main,2024-12-02 17:40:29,INFO,d:\VSC\Data-warehouse\code\LoadAggregate.py
+,TEST,Run Save log,Main,2024-12-02 17:41:56,INFO,d:\VSC\Data-warehouse\code\LoadAggregate.py
+,UpdateSuccess,Run Code,Main,2024-12-02 17:42:08,INFO,d:\VSC\Data-warehouse\code\LoadAggregate.py
+,InsertGoldPricesTempError,Error,insert_gold_prices_to_sqlserver,2024-12-04 22:40:27,ERROR,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,MainError,Error,Main,2024-12-04 22:40:27,ERROR,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,LoadGoldPricesSuccess,Load Data,compare_and_load_gold_prices,2024-12-04 22:45:09,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,LoadWarehouseSuccess,Load Data,load_new_data_to_warehouse,2024-12-04 22:45:12,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,UpdateSuccess,Run Code,Main,2024-12-04 22:45:12,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,UpdateSuccess,Run Code,Main,2024-12-04 22:55:13,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,UpdateSuccess,Run Code,Main,2024-12-04 23:00:12,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,UpdateSuccess,Run Code,Main,2024-12-04 23:02:46,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,LoadWarehouseSuccess,Load Data,load_new_data_to_warehouse,2024-12-04 23:08:03,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,UpdateSuccess,Run Code,Main,2024-12-04 23:08:03,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,UpdateSuccess,Run Code,Main,2024-12-05 10:14:52,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,UpdateSuccess,Run Code,Main,2024-12-05 10:24:42,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,LoadGoldPricesError,Error,compare_and_load_gold_prices,2024-12-05 11:45:57,ERROR,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,MainError,Error,Main,2024-12-05 11:45:57,ERROR,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,LoadGoldPricesError,Error,compare_and_load_gold_prices,2024-12-05 11:50:59,ERROR,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,MainError,Error,Main,2024-12-05 11:50:59,ERROR,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,LoadTransformedDataSuccess,Load Data,load_transformed_data_to_warehouse,2024-12-05 12:01:14,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,UpdateSuccess,Run Code,Main,2024-12-05 12:01:14,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,MainError,Error,Main,2024-12-05 12:06:00,ERROR,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,MainError,Error,Main,2024-12-05 12:10:53,ERROR,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,LoadTransformedDataError,Error,load_transformed_data_to_warehouse,2024-12-05 12:26:49,ERROR,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,MainError,Error,Main,2024-12-05 12:26:49,ERROR,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,LoadTransformedDataError,Error,load_transformed_data_to_warehouse,2024-12-05 12:31:45,ERROR,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,MainError,Error,Main,2024-12-05 12:31:45,ERROR,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,LoadTransformedDataSuccess,Load Data,load_transformed_data_to_warehouse,2024-12-05 12:32:29,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,UpdateSuccess,Run Code,Main,2024-12-05 12:32:29,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,LoadTransformedDataSuccess,Load Data,load_transformed_data_to_warehouse,2024-12-05 12:34:05,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,UpdateSuccess,Run Code,Main,2024-12-05 12:34:05,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,LoadGoldPricesSuccess,Load Data,compare_and_load_gold_prices,2024-12-05 12:41:09,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,LoadTransformedDataSuccess,Load Data,load_transformed_data_to_warehouse,2024-12-05 12:41:11,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,LoadWarehouseSuccess,Load Data,load_new_data_to_warehouse,2024-12-05 12:41:16,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,UpdateSuccess,Run Code,Main,2024-12-05 12:41:16,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,LoadTransformedDataSuccess,Load Data,load_transformed_data_to_warehouse,2024-12-05 12:51:15,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,UpdateSuccess,Run Code,Main,2024-12-05 12:51:15,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,LoadTransformedDataSuccess,Load Data,load_transformed_data_to_warehouse,2024-12-05 12:56:15,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,UpdateSuccess,Run Code,Main,2024-12-05 12:56:15,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,LoadTransformedDataSuccess,Load Data,load_transformed_data_to_warehouse,2024-12-05 13:06:15,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,LoadWarehouseError,Error,load_new_data_to_warehouse,2024-12-05 13:06:16,ERROR,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,MainError,Error,Main,2024-12-05 13:06:16,ERROR,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,LoadTransformedDataSuccess,Load Data,load_transformed_data_to_warehouse,2024-12-05 13:08:33,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,LoadWarehouseSuccess,Load Data,load_new_data_to_warehouse,2024-12-05 13:08:43,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,UpdateSuccess,Run Code,Main,2024-12-05 13:08:43,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,LoadTransformedDataSuccess,Load Data,load_transformed_data_to_warehouse,2024-12-08 18:55:10,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,LoadTransformedDataSuccess,Load Data,load_transformed_data_to_warehouse,2024-12-08 19:00:31,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,LoadTransformedDataSuccess,Load Data,load_transformed_data_to_warehouse,2024-12-08 19:03:15,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,LoadTransformedDataSuccess,Load Data,load_transformed_data_to_warehouse,2024-12-08 21:38:50,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,LoadTransformedDataSuccess,Load Data,load_transformed_data_to_warehouse,2024-12-08 21:39:50,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,LoadTransformedDataSuccess,Load Data,load_transformed_data_to_warehouse,2024-12-08 21:41:11,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,LoadTransformedDataSuccess,Load Data,load_transformed_data_to_warehouse,2024-12-08 21:42:25,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,LoadTransformedDataSuccess,Load Data,load_transformed_data_to_warehouse,2024-12-08 21:50:08,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,LoadTransformedDataSuccess,Load Data,load_transformed_data_to_warehouse,2024-12-08 21:53:11,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,LoadTransformedDataSuccess,Load Data,load_transformed_data_to_warehouse,2024-12-08 22:15:38,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,LoadTransformedDataSuccess,Load Data,load_transformed_data_to_warehouse,2024-12-08 22:42:13,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,LoadTransformedDataSuccess,Load Data,load_transformed_data_to_warehouse,2024-12-08 22:48:36,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,LoadTransformedDataSuccess,Load Data,load_transformed_data_to_warehouse,2024-12-08 22:59:26,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,LoadTransformedDataSuccess,Load Data,load_transformed_data_to_warehouse,2024-12-08 23:04:11,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,LoadTransformedDataSuccess,Load Data,load_transformed_data_to_warehouse,2024-12-08 23:08:33,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py
+,LoadTransformedDataSuccess,Load Data,load_transformed_data_to_warehouse,2024-12-08 23:15:07,INFO,D:\DW\Data-warehouse\Data-warehouse\code\LoadData.py

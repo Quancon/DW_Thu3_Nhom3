@@ -1,0 +1,136 @@
+2024-12-08 18:41:12,319 - ETLScheduler - INFO - Schedules have been set up
+2024-12-08 18:41:12,319 - ETLScheduler - INFO - ETL Scheduler started
+2024-12-08 18:49:15,534 - ETLScheduler - INFO - Starting web crawling task
+2024-12-08 18:49:23,903 - ETLScheduler - ERROR - Error in web crawling task: Can only use .dt accessor with datetimelike values
+2024-12-08 18:49:38,271 - ETLScheduler - INFO - Starting web crawling task
+2024-12-08 18:49:45,325 - ETLScheduler - ERROR - Error in web crawling task: Can only use .dt accessor with datetimelike values
+2024-12-08 18:51:44,709 - ETLScheduler - INFO - Starting web crawling task
+2024-12-08 18:51:51,414 - ETLScheduler - ERROR - Error in web crawling task: Can only use .dt accessor with datetimelike values
+2024-12-08 18:54:39,326 - ETLScheduler - INFO - Starting web crawling task
+2024-12-08 18:55:10,427 - ETLScheduler - INFO - Starting file processing task
+2024-12-08 18:55:10,427 - ETLScheduler - INFO - Processing .csv file: gold_price.csv
+2024-12-08 18:55:17,897 - ETLScheduler - ERROR - Error in file processing task: ('42S02', "[42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid object name 'GoldPrices_temp'. (208) (SQLExecDirectW); [42S02] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+2024-12-08 18:55:17,899 - ETLScheduler - INFO - Starting warehouse update task
+2024-12-08 18:55:18,186 - ETLScheduler - ERROR - Error in warehouse update task: Missing required columns: ['GoldType', 'BuyPrice', 'SellPrice', 'UpdateTime']
+2024-12-08 18:55:18,187 - ETLScheduler - INFO - Schedules have been set up
+2024-12-08 18:55:18,187 - ETLScheduler - INFO - ETL Scheduler started
+2024-12-08 19:00:19,167 - ETLScheduler - INFO - Starting web crawling task
+2024-12-08 19:00:31,442 - ETLScheduler - INFO - Starting file processing task
+2024-12-08 19:00:31,443 - ETLScheduler - INFO - Processing .csv file: gold_price.csv
+2024-12-08 19:02:32,352 - ETLScheduler - INFO - Starting web crawling task
+2024-12-08 19:03:15,940 - ETLScheduler - INFO - Starting file processing task
+2024-12-08 19:05:23,648 - ETLScheduler - ERROR - Error in file processing task: Object of type datetime is not JSON serializable
+2024-12-08 21:32:18,414 - ETLScheduler - INFO - Starting web crawling task
+2024-12-08 21:32:25,166 - ETLScheduler - INFO - Web crawling completed. Data saved to D:\DW\Data-warehouse\Data-warehouse\data\web_pnj_blog_20241208_213222.json
+2024-12-08 21:32:56,557 - ETLScheduler - INFO - Data loaded to staging database
+2024-12-08 21:32:56,619 - ETLScheduler - ERROR - Error in web crawling task: Can only use .dt accessor with datetimelike values
+2024-12-08 21:32:56,619 - ETLScheduler - INFO - Starting file processing task
+2024-12-08 21:32:56,619 - ETLScheduler - INFO - Processing .json file: from_csv_gold_price_20241208_190315.json
+2024-12-08 21:35:32,658 - ETLScheduler - INFO - Starting web crawling task
+2024-12-08 21:35:55,291 - ETLScheduler - ERROR - Error in web crawling task: ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]Named Pipes Provider: Could not open a connection to SQL Server [2].  (2) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (2)')
+2024-12-08 21:37:34,568 - ETLScheduler - INFO - Starting web crawling task
+2024-12-08 21:37:56,860 - ETLScheduler - ERROR - Error in web crawling task: ('08001', '[08001] [Microsoft][ODBC Driver 17 for SQL Server]SQL Server Network Interfaces: Error Locating Server/Instance Specified [xFFFFFFFF].  (-1) (SQLDriverConnect); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Login timeout expired (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]Invalid connection string attribute (0); [08001] [Microsoft][ODBC Driver 17 for SQL Server]A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allow remote connections. For more information see SQL Server Books Online. (-1)')
+2024-12-08 21:38:42,784 - ETLScheduler - INFO - Starting web crawling task
+2024-12-08 21:38:50,392 - ETLScheduler - INFO - Starting file processing task
+2024-12-08 21:39:05,162 - ETLScheduler - ERROR - Error in file processing task: Object of type datetime is not JSON serializable
+2024-12-08 21:39:42,624 - ETLScheduler - INFO - Starting web crawling task
+2024-12-08 21:39:51,006 - ETLScheduler - INFO - Starting file processing task
+2024-12-08 21:40:11,697 - ETLScheduler - ERROR - Error in file processing task: Object of type datetime is not JSON serializable
+2024-12-08 21:41:03,203 - ETLScheduler - INFO - Starting web crawling task
+2024-12-08 21:41:11,252 - ETLScheduler - INFO - Starting file processing task
+2024-12-08 21:41:32,995 - ETLScheduler - ERROR - Error in file processing task: Object of type datetime is not JSON serializable
+2024-12-08 21:42:11,338 - ETLScheduler - INFO - Starting web crawling task
+2024-12-08 21:42:25,981 - ETLScheduler - INFO - Starting file processing task
+2024-12-08 21:42:47,809 - ETLScheduler - ERROR - Error in file processing task: Object of type datetime is not JSON serializable
+2024-12-08 21:49:56,247 - ETLScheduler - INFO - Starting web crawling task
+2024-12-08 21:50:08,072 - ETLScheduler - INFO - Starting file processing task
+2024-12-08 21:50:08,073 - ETLScheduler - INFO - Processing .json file: crawled_pnj_prices_20241208_214823.json
+2024-12-08 21:50:08,305 - ETLScheduler - INFO - Processing .csv file: from_csv_gold_price_20241208_214811.csv
+2024-12-08 21:50:25,048 - ETLScheduler - INFO - Processing .json file: from_csv_gold_price_20241208_214811.json
+2024-12-08 21:50:33,730 - ETLScheduler - INFO - Processing .csv file: gold_price.csv
+2024-12-08 21:50:45,268 - ETLScheduler - INFO - Processing .xlsx file: gold_price.xlsx
+2024-12-08 21:50:45,688 - ETLScheduler - INFO - Processing .json file: web_pnj_blog_20241208_215000.json
+2024-12-08 21:50:45,817 - ETLScheduler - INFO - File processing completed
+2024-12-08 21:50:45,818 - ETLScheduler - INFO - Starting warehouse update task
+2024-12-08 21:50:45,876 - ETLScheduler - INFO - Schedules have been set up
+2024-12-08 21:50:45,877 - ETLScheduler - INFO - ETL Scheduler started
+2024-12-08 21:53:02,056 - ETLScheduler - INFO - Starting web crawling task
+2024-12-08 21:53:11,121 - ETLScheduler - INFO - Starting file processing task
+2024-12-08 21:53:11,121 - ETLScheduler - INFO - Processing .json file: crawled_pnj_prices_20241208_214823.json
+2024-12-08 21:53:11,197 - ETLScheduler - INFO - Processing .csv file: from_csv_gold_price_20241208_214811.csv
+2024-12-08 21:53:31,282 - ETLScheduler - INFO - Processing .json file: from_csv_gold_price_20241208_214811.json
+2024-12-08 21:53:42,781 - ETLScheduler - INFO - Processing .csv file: gold_price.csv
+2024-12-08 21:53:52,684 - ETLScheduler - INFO - Processing .xlsx file: gold_price.xlsx
+2024-12-08 21:53:53,035 - ETLScheduler - INFO - Processing .json file: web_pnj_blog_20241208_215000.json
+2024-12-08 21:53:53,202 - ETLScheduler - INFO - Processing .json file: web_pnj_blog_20241208_215308.json
+2024-12-08 21:53:53,267 - ETLScheduler - INFO - File processing completed
+2024-12-08 21:53:53,267 - ETLScheduler - INFO - Starting warehouse update task
+2024-12-08 21:53:53,348 - ETLScheduler - INFO - Schedules have been set up
+2024-12-08 21:53:53,348 - ETLScheduler - INFO - ETL Scheduler started
+2024-12-08 22:15:30,312 - ETLScheduler - INFO - Starting web crawling task
+2024-12-08 22:15:38,441 - ETLScheduler - INFO - Starting file processing task
+2024-12-08 22:15:38,441 - ETLScheduler - INFO - Processing .csv file: gold_price.csv
+2024-12-08 22:15:50,869 - ETLScheduler - INFO - Processing .xlsx file: gold_price.xlsx
+2024-12-08 22:15:51,322 - ETLScheduler - INFO - Processing .json file: web_pnj_blog_20241208_221535.json
+2024-12-08 22:15:51,443 - ETLScheduler - INFO - File processing completed
+2024-12-08 22:15:51,443 - ETLScheduler - INFO - Starting warehouse update task
+2024-12-08 22:15:51,554 - ETLScheduler - INFO - Schedules have been set up
+2024-12-08 22:15:51,554 - ETLScheduler - INFO - ETL Scheduler started
+2024-12-08 22:41:46,019 - ETLScheduler - INFO - Starting web crawling task
+2024-12-08 22:42:13,141 - ETLScheduler - INFO - Starting file processing task
+2024-12-08 22:42:13,141 - ETLScheduler - INFO - Processing .csv file: gold_price.csv
+2024-12-08 22:42:33,286 - ETLScheduler - INFO - Processing .xlsx file: gold_price.xlsx
+2024-12-08 22:42:34,456 - ETLScheduler - INFO - Processing .json file: web_pnj_blog_20241208_224150.json
+2024-12-08 22:42:34,526 - ETLScheduler - INFO - File processing completed
+2024-12-08 22:42:34,526 - ETLScheduler - INFO - Starting warehouse update task
+2024-12-08 22:42:34,573 - ETLScheduler - INFO - Schedules have been set up
+2024-12-08 22:42:34,573 - ETLScheduler - INFO - ETL Scheduler started
+2024-12-08 22:48:23,874 - ETLScheduler - INFO - Starting web crawling task
+2024-12-08 22:48:36,692 - ETLScheduler - INFO - Starting file processing task
+2024-12-08 22:48:36,692 - ETLScheduler - INFO - Processing .csv file: gold_price.csv
+2024-12-08 22:48:52,844 - ETLScheduler - INFO - Processing .xlsx file: gold_price.xlsx
+2024-12-08 22:48:53,782 - ETLScheduler - INFO - Processing .json file: web_pnj_blog_20241208_224829.json
+2024-12-08 22:48:53,829 - ETLScheduler - INFO - File processing completed
+2024-12-08 22:48:53,829 - ETLScheduler - INFO - Starting warehouse update task
+2024-12-08 22:48:53,892 - ETLScheduler - INFO - Schedules have been set up
+2024-12-08 22:48:53,892 - ETLScheduler - INFO - ETL Scheduler started
+2024-12-08 22:59:13,876 - ETLScheduler - INFO - Starting web crawling task
+2024-12-08 22:59:26,307 - ETLScheduler - INFO - Starting file processing task
+2024-12-08 22:59:26,307 - ETLScheduler - INFO - Processing .csv file: gold_price.csv
+2024-12-08 22:59:40,401 - ETLScheduler - INFO - Processing .xlsx file: gold_price.xlsx
+2024-12-08 22:59:40,977 - ETLScheduler - INFO - Processing .json file: web_pnj_blog_20241208_224829.json
+2024-12-08 22:59:41,083 - ETLScheduler - INFO - Processing .json file: web_pnj_blog_20241208_225918.json
+2024-12-08 22:59:41,137 - ETLScheduler - INFO - File processing completed
+2024-12-08 22:59:41,137 - ETLScheduler - INFO - Starting warehouse update task
+2024-12-08 22:59:41,206 - ETLScheduler - INFO - Schedules have been set up
+2024-12-08 22:59:41,206 - ETLScheduler - INFO - ETL Scheduler started
+2024-12-08 23:00:00,359 - ETLScheduler - INFO - Starting warehouse update task
+2024-12-08 23:03:59,177 - ETLScheduler - INFO - Starting web crawling task
+2024-12-08 23:04:11,789 - ETLScheduler - INFO - Starting file processing task
+2024-12-08 23:04:11,789 - ETLScheduler - INFO - Processing .csv file: gold_price.csv
+2024-12-08 23:04:23,490 - ETLScheduler - INFO - Processing .xlsx file: gold_price.xlsx
+2024-12-08 23:04:23,911 - ETLScheduler - INFO - Processing .json file: web_pnj_blog_20241208_224829.json
+2024-12-08 23:04:23,936 - ETLScheduler - INFO - Processing .json file: web_pnj_blog_20241208_230403.json
+2024-12-08 23:04:23,949 - ETLScheduler - INFO - File processing completed
+2024-12-08 23:04:23,949 - ETLScheduler - INFO - Starting warehouse update task
+2024-12-08 23:04:24,001 - ETLScheduler - INFO - Schedules have been set up
+2024-12-08 23:04:24,001 - ETLScheduler - INFO - ETL Scheduler started
+2024-12-08 23:08:04,352 - ETLScheduler - INFO - Starting web crawling task
+2024-12-08 23:08:54,649 - ETLScheduler - INFO - Starting file processing task
+2024-12-08 23:08:54,650 - ETLScheduler - INFO - Processing .csv file: gold_price.csv
+2024-12-08 23:10:03,477 - ETLScheduler - INFO - Processing .xlsx file: gold_price.xlsx
+2024-12-08 23:10:03,910 - ETLScheduler - INFO - Processing .json file: web_pnj_blog_20241208_230808.json
+2024-12-08 23:10:03,940 - ETLScheduler - INFO - File processing completed
+2024-12-08 23:10:03,940 - ETLScheduler - INFO - Starting warehouse update task
+2024-12-08 23:10:04,022 - ETLScheduler - INFO - Schedules have been set up
+2024-12-08 23:10:04,022 - ETLScheduler - INFO - ETL Scheduler started
+2024-12-08 23:14:53,625 - ETLScheduler - INFO - Starting web crawling task
+2024-12-08 23:15:07,239 - ETLScheduler - INFO - Starting file processing task
+2024-12-08 23:15:07,239 - ETLScheduler - INFO - Processing .csv file: gold_price.csv
+2024-12-08 23:15:19,690 - ETLScheduler - INFO - Processing .xlsx file: gold_price.xlsx
+2024-12-08 23:15:20,522 - ETLScheduler - INFO - Processing .json file: web_pnj_blog_20241208_230808.json
+2024-12-08 23:15:20,553 - ETLScheduler - INFO - Processing .json file: web_pnj_blog_20241208_231458.json
+2024-12-08 23:15:20,584 - ETLScheduler - INFO - File processing completed
+2024-12-08 23:15:20,584 - ETLScheduler - INFO - Starting warehouse update task
+2024-12-08 23:15:20,615 - ETLScheduler - INFO - Schedules have been set up
+2024-12-08 23:15:20,615 - ETLScheduler - INFO - ETL Scheduler started

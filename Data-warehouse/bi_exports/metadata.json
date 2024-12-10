@@ -1,0 +1,9 @@
+{
+    "export_time": "2024-12-10 06:43:30",
+    "files": {
+        "fact_data": "D:\\DW\\Data-warehouse\\Data-warehouse\\bi_exports\\fact_gold_prices.csv",
+        "daily_aggregates": "D:\\DW\\Data-warehouse\\Data-warehouse\\bi_exports\\daily_aggregates.csv",
+        "monthly_aggregates": "D:\\DW\\Data-warehouse\\Data-warehouse\\bi_exports\\monthly_aggregates.csv",
+        "gold_type_analysis": "D:\\DW\\Data-warehouse\\Data-warehouse\\bi_exports\\gold_type_analysis.csv"
+    }
+}
