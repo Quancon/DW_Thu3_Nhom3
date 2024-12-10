@@ -18,7 +18,6 @@ from DataExtractor import DataExtractor
 # Class để tạo object connection và lấy connection_string
 class Connection:
     def __init__(self, config_path=None, default_db='staging_db'):
-        # Xác định đường dẫn tuyệt đối cho config
         if config_path is None:
             self.config_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'config.json')
         else:
@@ -36,11 +35,9 @@ class Connection:
         # Tạo thư mục nếu chưa tồn tại
         os.makedirs(self.data_dir, exist_ok=True)
         os.makedirs(self.logs_dir, exist_ok=True)
-
     def load_config(self):
         with open(self.config_path, 'r', encoding='utf-8') as f:
             return json.load(f)
-
     def create_connection_string(self, db_name):
         db_config = self.config['database']
         return (
@@ -52,7 +49,6 @@ class Connection:
             "Trusted_Connection=yes;"
             "Connection Timeout=30;"
         )
-
     def switch_database(self, new_database):
         self.default_db = new_database
         self.connection_string = self.create_connection_string(new_database)
@@ -376,24 +372,6 @@ def load_data_to_database(data, connection_string, table_name):
     finally:
         if conn:
             conn.close()
-
-
-# Chuyển đổi dữ liệu từ các nguồn khác nhau và thực hiện ETL
-def process_data(file_path, file_type, connection_string, table_name):
-    # Xóa hàm này vì đã có các hàm riêng biệt cho từng loại file
-    pass
-
-def insert_gold_prices_to_temp_staging(file_path, connection_string, csv_file_path):
-    # Xóa hàm này vì trùng lặp với load_data_to_database
-    pass
-
-def load_new_data_to_warehouse(staging_connection_string, warehouse_connection_string, csv_file_path):
-    # Xóa hàm này vì đã được thay thế bởi load_transformed_data_to_warehouse
-    pass
-
-def get_staging_data(staging_connection_string):
-    # Xóa hàm này vì có thể gộp vào run_warehouse_update_task
-    pass
 
 # Tối ưu hàm logging
 def create_log(name, action, source, level, csv_file_path):
